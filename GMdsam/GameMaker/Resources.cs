@@ -140,7 +140,7 @@ namespace GameMaker
             r.BaseStream.Position = pos;
             return s;
         }
-        const int MaxZeroTerminatedStringSize = 64;
+        const int MaxZeroTerminatedStringSize = 1024;
         /// <summary>
         /// Tries to read a string, assumes strings arn't bigger than 64 charaters
         /// </summary>
